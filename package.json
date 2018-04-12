@@ -1,0 +1,28 @@
+{
+  "name": "find-your-slice",
+  "version": "1.0.0",
+  "description": "### Overview",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "nodemon --watch ./server server"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "sujitha",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.13.4",
+    "morgan": "^1.9.0",
+    "yelp-api-v3": "^1.5.0",
+    "yelp-fusion": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  }
+}

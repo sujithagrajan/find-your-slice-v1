@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:200,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+
+/* General styles */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+
+/* body {
+  background: url('/images/city-scene.jpg')no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #1d1500;
+} */
+body {
+  background: url("https://images6.alphacoders.com/412/thumb-1920-412226.jpg")no-repeat center center fixed;
+  background-size: 100%; 
+        
+}   
+
+a:hover {
+  text-decoration: none;
+}
+
+h3.landing-page {
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 200;
+  max-width: 300px;
+  font-size: 6em;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50vh;
+  transform: translateY(-50%);
+}
+h2.landing-page {
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 200;
+  max-width: 400px;
+  font-size: 4em;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+.phone {
+  font-weight: bold;
+}
+
+/* Comment styles */
+.hidden {
+  display: none;
+}
+
+.fa-trash:before {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.message-form {
+    padding-top: 15px;
+}
+
+/* Header styles */
+header {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+header h1 {
+  color: #FFF;
+  padding: 10px 2%;
+  margin: 4px;
+  float: left;
+  padding-left: 0;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+}
+
+/* Header navigation bar */
+header nav {
+  padding: 10px 2%;
+  float: right;
+  text-align: right;
+  line-height: 30px;
+  margin-top: 0;
+  position: relative;
+  vertical-align: middle;
+}
+.form-control-lg {
+    height: 30px;
+    padding: 4px;
+    margin: 4px;
+}
+
+/* Main Section */
+#main {
+  margin-top: 100px;
+}
+
+/* Individual Items Styling */
+.activity {
+  
+  border-bottom: 1px solid #ccc;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.activity:hover {
+  background-color: #eee;
+}
+
+article.activity {
+    background: white;
+    opacity: .8;
+    padding: 20px;
+}
+
+.activity .featured-image {
+  width: 12%;
+  float: left;
+  margin: 1.5%;
+  max-width: 60px;
+}
+
+.activity .featured-image img {
+  max-width: 100%;
+}
+
+.activity .activity-content {
+  
+  width: 70%;
+  float: left;
+}
+
+.activity .activity-content a {
+  text-decoration: none;
+}
+
+.activity .activity-content h3 {
+  margin-bottom: 0;
+  color: #337ab7;
+}
+.activity .activity-content h3:hover {
+  opacity: .7;
+}
+
+.activity .activity-content h6 {
+  margin-top: 0;
+  color: #666;
+}
+
+.activity .rating {
+  width: 15%;
+  float: right;
+  font-size: 15px;
+  margin-top: 15px;
+  text-align: right;
+  color: #ff390c;
+}
+.address {
+
+}
+
+.content {
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .container {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 800px) {
+  header nav {
+    float: none;
+  }
+  header h1 {
+    float: none;
+  }
+  header {
+    text-align: center;
+  }
+  h2.landing-page {
+    font-size: 3em;
+    margin: 180px auto 0;
+  }
+}
