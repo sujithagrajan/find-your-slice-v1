@@ -10,7 +10,7 @@ app.use(express.static('public'));
 
 class Yelp {
   constructor({ 
-    apiKey = "suKaYsvADxWXThI24D_Fp-fCvPjYlSF5wN9A29AYoAm46MC39FpudXyfVox-f5TsLAF3zYtSZLYtzsv7CXw3SWgzL8hXyDdmIdCgKnc7uMfSFXO0qA3cgNUKUc2mWnYx"
+    apiKey = "APIKEY"
    }) 
    {
     this.fetch = axios.create({
